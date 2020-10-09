@@ -33,4 +33,4 @@ jobs:
         app-name: 'tushar-joshi-acc-test-app'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_6a5dd73887194f7588ad0b51771c69bb }}
-        package: '${{ github.workspace }}/target/*.jar'
+        package: '${{ github.workspace }}/build/libs/*.jar'
